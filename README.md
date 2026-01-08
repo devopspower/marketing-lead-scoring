@@ -14,6 +14,8 @@ Based on the final training execution:
 
 - **Optimization:** The model reached peak discriminative power by Epoch 11, successfully ranking potential converters significantly higher than non-converters.
 
+![Lead scoring result](lead-result.png)
+
 ## 🛠️ Step-by-Step Methodology
 
 ### 1. Step 1 (Objective)
@@ -95,3 +97,4 @@ streamlit run app.py
 - **Behavioral Correlation:** The model identified that _Total Time Spent on Website_ and _SMS Activity_ are the strongest predictors of a "Hot Lead".
 
 - **Sales Efficiency:** By focusing on leads with a >80% probability, sales teams can increase conversion rates while reducing time spent on uninterested prospects.
+
